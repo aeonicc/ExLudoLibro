@@ -125,7 +125,8 @@ public class MatchController : MonoBehaviour
         if (!_hexagramChangeColor) return;
         if (_conversionHasBegun)
         {
-            ReleaseLegAnim();
+            ReleaseLegAnim(_elements[_elements.Count-1]);
+            ReleaseLegAnim(_elements[_elements.Count-2]);
             _startTime = Time.deltaTime;
             _conversionHasBegun = false;
             _hexMaterial = hexagramParts[hexagramCounter].GetComponent<MeshRenderer>().material;
@@ -170,13 +171,27 @@ public class MatchController : MonoBehaviour
         legFire.GetComponent<Animator>().SetTrigger(release);
         yield return new  WaitForSeconds(0);
     }
-    private void ReleaseLegAnim()
+    private void ReleaseLegAnim(int leg)
     {
-        legEarth.GetComponent<Animator>().SetTrigger(release);
-        legWater.GetComponent<Animator>().SetTrigger(release);
-        legMetal.GetComponent<Animator>().SetTrigger(release);
-        legWood.GetComponent<Animator>().SetTrigger(release);
-        legFire.GetComponent<Animator>().SetTrigger(release);
+        switch (leg)
+        {
+            case 0:
+                legFire.GetComponent<Animator>().SetTrigger(release);
+                break;
+            case 1:
+                legEarth.GetComponent<Animator>().SetTrigger(release);
+                break;
+            case 2:
+                legMetal.GetComponent<Animator>().SetTrigger(release);
+                break;
+            case 3:
+                legWater.GetComponent<Animator>().SetTrigger(release);
+                break;
+            case 4:
+                legWood.GetComponent<Animator>().SetTrigger(release);
+                break;
+        }
+
     }
     
     //Used in the button to start the match
@@ -262,7 +277,7 @@ public class MatchController : MonoBehaviour
         }
         else
         {
-            ReleaseLegAnim();
+            ReleaseLegAnim(randomNpcChoice);
             warningsPannel.StartBlinkForSeconds("The elements tied");
             _elements.RemoveAt(_elements.Count-1);
             _elements.RemoveAt(_elements.Count-1);
