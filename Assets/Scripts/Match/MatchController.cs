@@ -21,9 +21,8 @@ public enum ElementType
 
 public class MatchController : MonoBehaviour
 {
-    [FormerlySerializedAs("leg_Fire")]
     [Header("Legendaries")] 
-    [SerializeField] private GameObject legFire;
+    [FormerlySerializedAs("leg_Fire")] [SerializeField] private GameObject legFire;
     [FormerlySerializedAs("leg_Water")] [SerializeField] private GameObject legWater;
     [FormerlySerializedAs("leg_Metal")] [SerializeField] private GameObject legMetal;
     [FormerlySerializedAs("leg_Earth")] [SerializeField] private GameObject legEarth;
@@ -126,6 +125,7 @@ public class MatchController : MonoBehaviour
         if (!_hexagramChangeColor) return;
         if (_conversionHasBegun)
         {
+            ReleaseLegAnim();
             _startTime = Time.deltaTime;
             _conversionHasBegun = false;
             _hexMaterial = hexagramParts[hexagramCounter].GetComponent<MeshRenderer>().material;
@@ -145,7 +145,6 @@ public class MatchController : MonoBehaviour
         if (_hexMaterial.GetColor(Color3) != _targetColor || hexagramCounter >= 6) return;
         if (hexagramCounter + 1 != 6)
         {
-            ReleaseLegAnim();
             MatchStart();
         
             for (var i = 0; i < 5; i++)
@@ -162,6 +161,15 @@ public class MatchController : MonoBehaviour
         }
     }
 
+    private IEnumerator Release()
+    {
+        legEarth.GetComponent<Animator>().SetTrigger(release);
+        legWater.GetComponent<Animator>().SetTrigger(release);
+        legMetal.GetComponent<Animator>().SetTrigger(release);
+        legWood.GetComponent<Animator>().SetTrigger(release);
+        legFire.GetComponent<Animator>().SetTrigger(release);
+        yield return new  WaitForSeconds(0);
+    }
     private void ReleaseLegAnim()
     {
         legEarth.GetComponent<Animator>().SetTrigger(release);
@@ -182,7 +190,7 @@ public class MatchController : MonoBehaviour
     }
 
     public void ElementPicker(int element)
-    {
+    { 
         _elements.Add(element);
 
         switch (element)
@@ -222,7 +230,7 @@ public class MatchController : MonoBehaviour
         
         //NPC Playing v
         var randomNpcChoice = UnityEngine.Random.Range(0, 5);
-        if (randomNpcChoice != _elements[_elements.Count - 2])
+        if (randomNpcChoice != _elements[_elements.Count - 1])
         {
             switch (randomNpcChoice)
             {
