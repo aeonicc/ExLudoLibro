@@ -21,6 +21,15 @@ public enum ElementType
 
 public class MatchController : MonoBehaviour
 {
+    [FormerlySerializedAs("leg_Fire")]
+    [Header("Legendaries")] 
+    [SerializeField] private GameObject legFire;
+    [FormerlySerializedAs("leg_Water")] [SerializeField] private GameObject legWater;
+    [FormerlySerializedAs("leg_Metal")] [SerializeField] private GameObject legMetal;
+    [FormerlySerializedAs("leg_Earth")] [SerializeField] private GameObject legEarth;
+    [FormerlySerializedAs("leg_Wood")] [SerializeField] private GameObject legWood;
+    
+    [Header("Parameters")]
     [FormerlySerializedAs("_warningsPannel")] [SerializeField]private WarningsPannel warningsPannel;
     [FormerlySerializedAs("HexagramCounter")] [SerializeField] private int hexagramCounter;
     [FormerlySerializedAs("HexagramParts")]
@@ -53,6 +62,12 @@ public class MatchController : MonoBehaviour
     private static readonly int F = Shader.PropertyToID("_Float");
     private static readonly int HolderSpin = Animator.StringToHash("HolderSpin");
     private static readonly int Levitate = Animator.StringToHash("Levitate");
+    private static readonly int red = Animator.StringToHash("Red");
+    private static readonly int brown = Animator.StringToHash("Brown");
+    private static readonly int black = Animator.StringToHash("Black");
+    private static readonly int blue = Animator.StringToHash("Blue");
+    private static readonly int green = Animator.StringToHash("Green");
+    private static readonly int release = Animator.StringToHash("release");
 
 
     // Start is called before the first frame update
@@ -130,6 +145,7 @@ public class MatchController : MonoBehaviour
         if (_hexMaterial.GetColor(Color3) != _targetColor || hexagramCounter >= 6) return;
         if (hexagramCounter + 1 != 6)
         {
+            ReleaseLegAnim();
             MatchStart();
         
             for (var i = 0; i < 5; i++)
@@ -146,6 +162,15 @@ public class MatchController : MonoBehaviour
         }
     }
 
+    private void ReleaseLegAnim()
+    {
+        legEarth.GetComponent<Animator>().SetTrigger(release);
+        legWater.GetComponent<Animator>().SetTrigger(release);
+        legMetal.GetComponent<Animator>().SetTrigger(release);
+        legWood.GetComponent<Animator>().SetTrigger(release);
+        legFire.GetComponent<Animator>().SetTrigger(release);
+    }
+    
     //Used in the button to start the match
     public void MatchStart()
     {
@@ -159,6 +184,25 @@ public class MatchController : MonoBehaviour
     public void ElementPicker(int element)
     {
         _elements.Add(element);
+
+        switch (element)
+        {
+            case 0 :
+                legFire.GetComponent<Animator>().SetTrigger(red);
+                break;    
+            case 1 :
+                legEarth.GetComponent<Animator>().SetTrigger(brown);
+                break;            
+            case 2 :
+                legMetal.GetComponent<Animator>().SetTrigger(black);
+                break;           
+            case 3 :
+                legWater.GetComponent<Animator>().SetTrigger(blue);
+                break;           
+            case 4 :
+                legWood.GetComponent<Animator>().SetTrigger(green);
+                break;
+        }
         
         Debug.Log(System.String.Join("", _elements.ConvertAll(i => i.ToString()).ToArray()));
         for (var i = 0; i < 5; i++)
@@ -178,16 +222,39 @@ public class MatchController : MonoBehaviour
         
         //NPC Playing v
         var randomNpcChoice = UnityEngine.Random.Range(0, 5);
+        if (randomNpcChoice != _elements[_elements.Count - 2])
+        {
+            switch (randomNpcChoice)
+            {
+                case 0:
+                    legFire.GetComponent<Animator>().SetTrigger(red);
+                    break;
+                case 1:
+                    legEarth.GetComponent<Animator>().SetTrigger(brown);
+                    break;
+                case 2:
+                    legMetal.GetComponent<Animator>().SetTrigger(black);
+                    break;
+                case 3:
+                    legWater.GetComponent<Animator>().SetTrigger(blue);
+                    break;
+                case 4:
+                    legWood.GetComponent<Animator>().SetTrigger(green);
+                    break;
+            }
+        }
+
         _elements.Add(randomNpcChoice);
         Debug.Log("Npc choose :" + Enum.GetName(typeof(ElementType), randomNpcChoice));
         warningsPannel.StartBlinkForSeconds("Npc choose :" + Enum.GetName(typeof(ElementType), randomNpcChoice));
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         if (randomNpcChoice != _elements[_elements.Count-2])
         {
             ChangeHexagram();
         }
         else
         {
+            ReleaseLegAnim();
             warningsPannel.StartBlinkForSeconds("The elements tied");
             _elements.RemoveAt(_elements.Count-1);
             _elements.RemoveAt(_elements.Count-1);
