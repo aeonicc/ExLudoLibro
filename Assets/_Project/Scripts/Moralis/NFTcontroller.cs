@@ -21,8 +21,8 @@ using Moralis.Web3Api.Models;
 
 namespace Main
 { 
-    public class NftController : MonoBehaviour
-    {
+public class NFTcontroller : MonoBehaviour
+  {
         [Header("NFT Data")]
         [SerializeField] private string contractAddress;
         [SerializeField] private string tokenId;
