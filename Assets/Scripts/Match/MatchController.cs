@@ -120,6 +120,8 @@ public class MatchController : MonoBehaviour
             terrainParent.GetComponent<Animator>().SetTrigger(Levitate);
             //hexagramParts[HexagramCounter - 1].transform.parent.GetComponent<Animator>().SetTrigger(HolderSpin);
             hexagramCounter = 10;
+            
+            
         }
 
         if (!_hexagramChangeColor) return;
@@ -244,6 +246,7 @@ public class MatchController : MonoBehaviour
         yield return new WaitForSeconds(2);
         
         //NPC Playing v
+        //chainlink
         var randomNpcChoice = UnityEngine.Random.Range(0, 5);
         if (randomNpcChoice != _elements[_elements.Count - 1])
         {
