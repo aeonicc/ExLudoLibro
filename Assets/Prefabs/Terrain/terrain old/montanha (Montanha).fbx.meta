@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 568c9c4c9d65030489f021b65d4aecca
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -5299957039894539723
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base
+  - first:
+      74: -1194940102909290546
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base.001
+  - first:
+      74: -1473171655688980462
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base.002
+  - first:
+      74: -6824118092429579338
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base.003
+  - first:
+      74: -6785149372931227443
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base.004
+  - first:
+      74: 5532103179952718396
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base.005
+  - first:
+      74: -2262121184568901928
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base.006
+  - first:
+      74: 6269282544068476234
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base.007
+  - first:
+      74: -1981031782187101917
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base.008
+  - first:
+      74: 8588163905454111914
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base.009
+  - first:
+      74: 5037918700276680894
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base.010
+  - first:
+      74: -5973414566064529052
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base.011
+  - first:
+      74: 8300390950175814709
+    second: montanha (Montanha)|base|base|base.001|base|centroAction|base|centroAction|base|bas
+  - first:
+      74: 539193601914291721
+    second: montanha (Montanha)|base|base|base.001|base|OverallParentAction|base|OverallParentA
+  - first:
+      74: -4328810708989189977
+    second: montanha (Montanha)|base|base|base.001|base|planeta_01Action.001|base|planeta_01_da
+  - first:
+      74: 9088225111886473165
+    second: montanha (Montanha)|base|base|centroAction|base|centroAction
+  - first:
+      74: 5499752466433854594
+    second: montanha (Montanha)|base|base|OverallParentAction|base|OverallParentAction
+  - first:
+      74: 3835861682035452554
+    second: montanha (Montanha)|base|base|planeta_01Action.001|base|planeta_01Action.001
+  - first:
+      74: 922754278607177951
+    second: montanha (Montanha)|centroAction
+  - first:
+      74: -4778801884931859636
+    second: montanha (Montanha)|centroAction.001
+  - first:
+      74: -6388836254752204352
+    second: montanha (Montanha)|centroAction.002
+  - first:
+      74: 8742972832916104146
+    second: montanha (Montanha)|OverallParentAction
+  - first:
+      74: -2440946612653315959
+    second: montanha (Montanha)|OverallParentAction.001
+  - first:
+      74: 1063478007208504644
+    second: montanha (Montanha)|OverallParentAction.002
+  - first:
+      74: 315127722138900793
+    second: montanha (Montanha)|planeta_06Action
+  - first:
+      74: 8495672963012411842
+    second: montanha (Montanha)|planeta_06Action.001
+  - first:
+      74: 7596067997452918971
+    second: montanha (Montanha)|planeta_06Action.002
+  - first:
+      74: 5135591533228086370
+    second: montanha (Montanha)|planeta_06Action.003
+  - first:
+      74: -4253865427881897816
+    second: montanha (Montanha)|planeta_06Action.004
+  - first:
+      74: -177639172921078299
+    second: montanha (Montanha)|planeta_06Action.005
+  - first:
+      74: -4584139387041555575
+    second: montanha (Montanha)|planeta_06Action.006
+  - first:
+      74: 5605954301118160964
+    second: montanha (Montanha)|planeta_06Action.007
+  - first:
+      74: 587307111138578810
+    second: montanha (Montanha)|planeta_06Action.008
+  - first:
+      74: 6212349769493177564
+    second: montanha (Montanha)|planeta_06Action.009
+  - first:
+      74: -4082320477112571384
+    second: montanha (Montanha)|planeta_06Action.010
+  - first:
+      74: 6186812398521602871
+    second: montanha (Montanha)|planeta_06Action.011
+  - first:
+      74: -7773463967584759668
+    second: montanha (Montanha)|planeta_06Action.012
+  - first:
+      74: -6792736125125625220
+    second: montanha (Montanha)|planeta_06Action.013
+  - first:
+      74: 750349931944075598
+    second: montanha (Montanha)|planeta_06Action.014
+  - first:
+      74: -8946721944030221029
+    second: montanha (Montanha)|planeta_06Action.015
+  - first:
+      74: 9184513974671049559
+    second: montanha (Montanha)|planeta_06Action.016
+  - first:
+      74: 4343110534632650769
+    second: montanha (Montanha)|planeta_08Action
+  - first:
+      74: -3006049696127442544
+    second: montanha (Montanha)|planeta_08Action.001
+  - first:
+      74: 2889664050239933843
+    second: montanha (Montanha)|planeta_08Action.002
+  - first:
+      74: 5194374638163113199
+    second: montanha (Montanha)|planeta_conexaoAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

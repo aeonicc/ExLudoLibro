@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: d12d98ab0eae9f94595addc6f010a9b4
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -8396774153110599372
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base"
+  - first:
+      74: 6155433741506580368
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base.001"
+  - first:
+      74: 969718317271714387
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base.002"
+  - first:
+      74: -5240521443839619116
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base.003"
+  - first:
+      74: -5968877018643759805
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base.004"
+  - first:
+      74: -382930667420841596
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base.005"
+  - first:
+      74: -2070507344139000877
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base.006"
+  - first:
+      74: -2210183607145603450
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base.007"
+  - first:
+      74: -2943294555711757325
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base.008"
+  - first:
+      74: -2947071643162561391
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base.009"
+  - first:
+      74: 1674083939297708298
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base.010"
+  - first:
+      74: -7326217951335416828
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base.011"
+  - first:
+      74: -1931516546831795115
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|centroAction|base|centroAction|base|bas"
+  - first:
+      74: 2440109104665875160
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|OverallParentAction|base|OverallParentA"
+  - first:
+      74: 7384105514517157271
+    second: "\xE1gua (Cachoeira, rio)|base|base|base.001|base|planeta_01Action.001|base|planeta_01_da"
+  - first:
+      74: -1459145929145742857
+    second: "\xE1gua (Cachoeira, rio)|base|base|centroAction|base|centroAction"
+  - first:
+      74: -2961438192270158304
+    second: "\xE1gua (Cachoeira, rio)|base|base|OverallParentAction|base|OverallParentAction"
+  - first:
+      74: 7649317254006308092
+    second: "\xE1gua (Cachoeira, rio)|base|base|planeta_01Action.001|base|planeta_01Action.001"
+  - first:
+      74: 5752252697676434797
+    second: "\xE1gua (Cachoeira, rio)|centroAction"
+  - first:
+      74: 5095906485100254151
+    second: "\xE1gua (Cachoeira, rio)|centroAction.001"
+  - first:
+      74: -5812089152508346302
+    second: "\xE1gua (Cachoeira, rio)|centroAction.002"
+  - first:
+      74: -8743203046124259986
+    second: "\xE1gua (Cachoeira, rio)|OverallParentAction"
+  - first:
+      74: 2309982437162021263
+    second: "\xE1gua (Cachoeira, rio)|OverallParentAction.001"
+  - first:
+      74: 4240424726437248412
+    second: "\xE1gua (Cachoeira, rio)|OverallParentAction.002"
+  - first:
+      74: -7155710028418971105
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action"
+  - first:
+      74: 4199134420117941496
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.001"
+  - first:
+      74: 5544445319202591943
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.002"
+  - first:
+      74: 6423026002186236046
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.003"
+  - first:
+      74: 9162318976210093736
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.004"
+  - first:
+      74: -816976042456948141
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.005"
+  - first:
+      74: 8665534044063362819
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.006"
+  - first:
+      74: -2851135565479138235
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.007"
+  - first:
+      74: 8912597190705750749
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.008"
+  - first:
+      74: 5581557769564980532
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.009"
+  - first:
+      74: -5360666784510898791
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.010"
+  - first:
+      74: 8274343986711075754
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.011"
+  - first:
+      74: -249059467230238338
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.012"
+  - first:
+      74: -6417757316175974638
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.013"
+  - first:
+      74: -4526723285065869676
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.014"
+  - first:
+      74: 2369191594219989680
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.015"
+  - first:
+      74: -1655076889852390171
+    second: "\xE1gua (Cachoeira, rio)|planeta_06Action.016"
+  - first:
+      74: 680101224646418320
+    second: "\xE1gua (Cachoeira, rio)|planeta_08Action"
+  - first:
+      74: -7075287283020524151
+    second: "\xE1gua (Cachoeira, rio)|planeta_08Action.001"
+  - first:
+      74: -3587970764912579384
+    second: "\xE1gua (Cachoeira, rio)|planeta_08Action.002"
+  - first:
+      74: -1725675809580642983
+    second: "\xE1gua (Cachoeira, rio)|planeta_conexaoAction"
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

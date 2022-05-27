@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 4677d7d8638689048b9c5c7b3b0f4319
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 4407305123304630697
+    second: lenda_anfibio.001|CameraAction
+  - first:
+      74: -4169945944514534568
+    second: lenda_anfibio.001|Cube.002Action
+  - first:
+      74: 4052113073414002805
+    second: lenda_anfibio.001|Cube.003Action
+  - first:
+      74: 559069325722614043
+    second: lenda_anfibio.001|Cube.004Action.001
+  - first:
+      74: 8474790748494160765
+    second: lenda_anfibio.001|dimensao_portalAction
+  - first:
+      74: -4882691072880121871
+    second: lenda_anfibio.001|dimensao_portalAction.002
+  - first:
+      74: 2945805027392740232
+    second: lenda_inseto.001|CameraAction
+  - first:
+      74: -3177341505733990469
+    second: lenda_inseto.001|Cube.002Action
+  - first:
+      74: 4159784352110440914
+    second: lenda_inseto.001|Cube.003Action
+  - first:
+      74: -6156959391476432280
+    second: lenda_inseto.001|Cube.004Action.001
+  - first:
+      74: 3497418014101566715
+    second: lenda_inseto.001|dimensao_portalAction
+  - first:
+      74: -5686853698038945972
+    second: lenda_inseto.001|dimensao_portalAction.002
+  - first:
+      74: -5130135587723950404
+    second: lenda_passaro.001|CameraAction
+  - first:
+      74: 1309625431464006783
+    second: lenda_passaro.001|Cube.002Action
+  - first:
+      74: 3534609515217521
+    second: lenda_passaro.001|Cube.003Action
+  - first:
+      74: 8085081863779269651
+    second: lenda_passaro.001|Cube.004Action.001
+  - first:
+      74: 7213319904643972387
+    second: lenda_passaro.001|dimensao_portalAction
+  - first:
+      74: -8536220843117686158
+    second: lenda_passaro.001|dimensao_portalAction.002
+  - first:
+      74: -7109082233449133281
+    second: lenda_tigre.001|CameraAction
+  - first:
+      74: 6527702606490293956
+    second: lenda_tigre.001|Cube.002Action
+  - first:
+      74: -1715194237230333113
+    second: lenda_tigre.001|Cube.003Action
+  - first:
+      74: -8450668914986012826
+    second: lenda_tigre.001|Cube.004Action.001
+  - first:
+      74: 440434016619847539
+    second: lenda_tigre.001|dimensao_portalAction
+  - first:
+      74: -8485927569853508060
+    second: lenda_tigre.001|dimensao_portalAction.002
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

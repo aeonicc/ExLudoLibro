@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 43649428f192be84c9f23861ecf72096
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -6394094731276022804
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base"
+  - first:
+      74: 4858095763790192744
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base.001"
+  - first:
+      74: -981877276605112988
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base.002"
+  - first:
+      74: -5679899513253707726
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base.003"
+  - first:
+      74: 4790799448147766298
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base.004"
+  - first:
+      74: -2441434709636375645
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base.005"
+  - first:
+      74: -5687756945985930542
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base.006"
+  - first:
+      74: 4336711151873782710
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base.007"
+  - first:
+      74: -2783829256656690924
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base.008"
+  - first:
+      74: 2311710044554025441
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base.009"
+  - first:
+      74: 6399545917173517145
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base.010"
+  - first:
+      74: -694613543640498408
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base.011"
+  - first:
+      74: 2698104879970435467
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|centroAction|base|centroAction|base|bas"
+  - first:
+      74: -3039618432956046432
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|OverallParentAction|base|OverallParentA"
+  - first:
+      74: -2315374856183712918
+    second: "terra  (Ch\xE3o)|base|base|base.001|base|planeta_01Action.001|base|planeta_01_da"
+  - first:
+      74: -9120211015955341391
+    second: "terra  (Ch\xE3o)|base|base|centroAction|base|centroAction"
+  - first:
+      74: 1049484991133005371
+    second: "terra  (Ch\xE3o)|base|base|OverallParentAction|base|OverallParentAction"
+  - first:
+      74: 2710233182893187873
+    second: "terra  (Ch\xE3o)|base|base|planeta_01Action.001|base|planeta_01Action.001"
+  - first:
+      74: 1975489057722411464
+    second: "terra  (Ch\xE3o)|centroAction"
+  - first:
+      74: 7470794888534910273
+    second: "terra  (Ch\xE3o)|centroAction.001"
+  - first:
+      74: 1791779691112998790
+    second: "terra  (Ch\xE3o)|centroAction.002"
+  - first:
+      74: -8767911958299938574
+    second: "terra  (Ch\xE3o)|OverallParentAction"
+  - first:
+      74: 3337930122555379133
+    second: "terra  (Ch\xE3o)|OverallParentAction.001"
+  - first:
+      74: 3774102602980804796
+    second: "terra  (Ch\xE3o)|OverallParentAction.002"
+  - first:
+      74: -3536455586460239440
+    second: "terra  (Ch\xE3o)|planeta_06Action"
+  - first:
+      74: -4503765105239263414
+    second: "terra  (Ch\xE3o)|planeta_06Action.001"
+  - first:
+      74: -7139604647700785775
+    second: "terra  (Ch\xE3o)|planeta_06Action.002"
+  - first:
+      74: -3395253163468715025
+    second: "terra  (Ch\xE3o)|planeta_06Action.003"
+  - first:
+      74: 4029361548730184711
+    second: "terra  (Ch\xE3o)|planeta_06Action.004"
+  - first:
+      74: 8073356579960220920
+    second: "terra  (Ch\xE3o)|planeta_06Action.005"
+  - first:
+      74: -8796466049462539909
+    second: "terra  (Ch\xE3o)|planeta_06Action.006"
+  - first:
+      74: 3603371799017122510
+    second: "terra  (Ch\xE3o)|planeta_06Action.007"
+  - first:
+      74: 3278500962159727531
+    second: "terra  (Ch\xE3o)|planeta_06Action.008"
+  - first:
+      74: -2227659776656878880
+    second: "terra  (Ch\xE3o)|planeta_06Action.009"
+  - first:
+      74: -229709886836426068
+    second: "terra  (Ch\xE3o)|planeta_06Action.010"
+  - first:
+      74: -3978535489890064399
+    second: "terra  (Ch\xE3o)|planeta_06Action.011"
+  - first:
+      74: -1566443256375552221
+    second: "terra  (Ch\xE3o)|planeta_06Action.012"
+  - first:
+      74: -4427220230450349259
+    second: "terra  (Ch\xE3o)|planeta_06Action.013"
+  - first:
+      74: -8113782949290916473
+    second: "terra  (Ch\xE3o)|planeta_06Action.014"
+  - first:
+      74: 8655387298899288176
+    second: "terra  (Ch\xE3o)|planeta_06Action.015"
+  - first:
+      74: -6838608859336755338
+    second: "terra  (Ch\xE3o)|planeta_06Action.016"
+  - first:
+      74: -5725684534148558697
+    second: "terra  (Ch\xE3o)|planeta_08Action"
+  - first:
+      74: 1874804033972747425
+    second: "terra  (Ch\xE3o)|planeta_08Action.001"
+  - first:
+      74: -6078646276846439801
+    second: "terra  (Ch\xE3o)|planeta_08Action.002"
+  - first:
+      74: -4383469021935284114
+    second: "terra  (Ch\xE3o)|planeta_conexaoAction"
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

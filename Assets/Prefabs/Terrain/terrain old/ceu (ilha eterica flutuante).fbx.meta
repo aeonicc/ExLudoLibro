@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 96c2adbddb0551e41a47e1a032363a97
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -4772508419313034304
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base"
+  - first:
+      74: 1413656399971346623
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base.001"
+  - first:
+      74: -3122967783068182717
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base.002"
+  - first:
+      74: -1927984898635213016
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base.003"
+  - first:
+      74: -2533796049275447696
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base.004"
+  - first:
+      74: 6902135710800525028
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base.005"
+  - first:
+      74: 4790661819067112040
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base.006"
+  - first:
+      74: -2122502517713705088
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base.007"
+  - first:
+      74: 6714277413246683063
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base.008"
+  - first:
+      74: 1076967601113284234
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base.009"
+  - first:
+      74: 512612254920815302
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base.010"
+  - first:
+      74: -7110437980128216697
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base.011"
+  - first:
+      74: -2698798705449666410
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|centroAction|base|centroAction|base|bas"
+  - first:
+      74: -242610578489570993
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|OverallParentAction|base|OverallParentA"
+  - first:
+      74: -4445066409872454508
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|base.001|base|planeta_01Action.001|base|planeta_01_da"
+  - first:
+      74: -7550991687280263917
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|centroAction|base|centroAction"
+  - first:
+      74: -3166520784446916378
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|OverallParentAction|base|OverallParentAction"
+  - first:
+      74: -1083485989187915848
+    second: "c\xE9u (Ilha eterica flutuante)|base|base|planeta_01Action.001|base|planeta_01Action.001"
+  - first:
+      74: -4967042830668931513
+    second: "c\xE9u (Ilha eterica flutuante)|centroAction"
+  - first:
+      74: 592274466120168283
+    second: "c\xE9u (Ilha eterica flutuante)|centroAction.001"
+  - first:
+      74: 151570695800567629
+    second: "c\xE9u (Ilha eterica flutuante)|centroAction.002"
+  - first:
+      74: 4013278340714231428
+    second: "c\xE9u (Ilha eterica flutuante)|OverallParentAction"
+  - first:
+      74: 4278163568200204716
+    second: "c\xE9u (Ilha eterica flutuante)|OverallParentAction.001"
+  - first:
+      74: 5963616305765059390
+    second: "c\xE9u (Ilha eterica flutuante)|OverallParentAction.002"
+  - first:
+      74: -5607643605655617177
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action"
+  - first:
+      74: 5295361841611776594
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.001"
+  - first:
+      74: 6914260977726938757
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.002"
+  - first:
+      74: 4443806876335176762
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.003"
+  - first:
+      74: 4978653208318335562
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.004"
+  - first:
+      74: 3129438205072418362
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.005"
+  - first:
+      74: 5418132375426014110
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.006"
+  - first:
+      74: 2946509392810608093
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.007"
+  - first:
+      74: 2852808974156496954
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.008"
+  - first:
+      74: -9113986596456215436
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.009"
+  - first:
+      74: -6242800740061501575
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.010"
+  - first:
+      74: -3874481168293072410
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.011"
+  - first:
+      74: -1101542623963780338
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.012"
+  - first:
+      74: 5574224623868203078
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.013"
+  - first:
+      74: 9188877573622326197
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.014"
+  - first:
+      74: 2058311343513052946
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.015"
+  - first:
+      74: 3504435037878435855
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_06Action.016"
+  - first:
+      74: -5647675849914310724
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_08Action"
+  - first:
+      74: -8667353028775488809
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_08Action.001"
+  - first:
+      74: -8598362549471037894
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_08Action.002"
+  - first:
+      74: 7092200836334998553
+    second: "c\xE9u (Ilha eterica flutuante)|planeta_conexaoAction"
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 1bf15ecb7a9367244b99f4cc4baec700
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1007338519906707593
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base"
+  - first:
+      74: -7646207905587909578
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base.001"
+  - first:
+      74: -7145329952223603307
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base.002"
+  - first:
+      74: -5751067691737120920
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base.003"
+  - first:
+      74: -8978358268227555224
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base.004"
+  - first:
+      74: 530553259014585739
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base.005"
+  - first:
+      74: -6274550672340922385
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base.006"
+  - first:
+      74: 8773347939439638486
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base.007"
+  - first:
+      74: -5216694780660492185
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base.008"
+  - first:
+      74: -5590257664180831049
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base.009"
+  - first:
+      74: -7098166727120370148
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base.010"
+  - first:
+      74: 8035934584498148104
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base.011"
+  - first:
+      74: 803119851363662101
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|centroAction|base|centroAction|base|bas"
+  - first:
+      74: 3135389152133905906
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|OverallParentAction|base|OverallParentA"
+  - first:
+      74: -3554722313496247294
+    second: "trov\xE3o (Mineral luminoso)|base|base|base.001|base|planeta_01Action.001|base|planeta_01_da"
+  - first:
+      74: 5474915640607864501
+    second: "trov\xE3o (Mineral luminoso)|base|base|centroAction|base|centroAction"
+  - first:
+      74: 5620776940909867540
+    second: "trov\xE3o (Mineral luminoso)|base|base|OverallParentAction|base|OverallParentAction"
+  - first:
+      74: 966320108368215396
+    second: "trov\xE3o (Mineral luminoso)|base|base|planeta_01Action.001|base|planeta_01Action.001"
+  - first:
+      74: -5372744921323827266
+    second: "trov\xE3o (Mineral luminoso)|centroAction"
+  - first:
+      74: -3102735517714476434
+    second: "trov\xE3o (Mineral luminoso)|centroAction.001"
+  - first:
+      74: -1118840662427528114
+    second: "trov\xE3o (Mineral luminoso)|centroAction.002"
+  - first:
+      74: -7925120891223513946
+    second: "trov\xE3o (Mineral luminoso)|OverallParentAction"
+  - first:
+      74: -4015576787926850130
+    second: "trov\xE3o (Mineral luminoso)|OverallParentAction.001"
+  - first:
+      74: -7235252002925970932
+    second: "trov\xE3o (Mineral luminoso)|OverallParentAction.002"
+  - first:
+      74: 4930795885007708721
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action"
+  - first:
+      74: -5741080264174500046
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.001"
+  - first:
+      74: -1510158715824104442
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.002"
+  - first:
+      74: -1252521413811568111
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.003"
+  - first:
+      74: -5411113036025183366
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.004"
+  - first:
+      74: 7807905965011729050
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.005"
+  - first:
+      74: 4497496041506558267
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.006"
+  - first:
+      74: -4608393069564680078
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.007"
+  - first:
+      74: 1143459260470725191
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.008"
+  - first:
+      74: 3214818669297543408
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.009"
+  - first:
+      74: 3914976450610887382
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.010"
+  - first:
+      74: 2145724861148317821
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.011"
+  - first:
+      74: 1949951919543033045
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.012"
+  - first:
+      74: -71489243117310082
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.013"
+  - first:
+      74: 2447996802040604806
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.014"
+  - first:
+      74: 2698113183493664662
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.015"
+  - first:
+      74: 2940410288806422390
+    second: "trov\xE3o (Mineral luminoso)|planeta_06Action.016"
+  - first:
+      74: -4455262496646354227
+    second: "trov\xE3o (Mineral luminoso)|planeta_08Action"
+  - first:
+      74: 3141686808490809446
+    second: "trov\xE3o (Mineral luminoso)|planeta_08Action.001"
+  - first:
+      74: -1083099079756944766
+    second: "trov\xE3o (Mineral luminoso)|planeta_08Action.002"
+  - first:
+      74: 747171243546539047
+    second: "trov\xE3o (Mineral luminoso)|planeta_conexaoAction"
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
