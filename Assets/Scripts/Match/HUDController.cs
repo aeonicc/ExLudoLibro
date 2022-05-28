@@ -15,7 +15,7 @@ namespace Main
         [SerializeField] private GameObject ButtonNext;
         [SerializeField] private GameObject ButtonStart;
 
-        public void Start()
+        private void Start()
         {
             ButtonNext.SetActive(true);
             hudObjects[PannelNumber].SetActive(true);
