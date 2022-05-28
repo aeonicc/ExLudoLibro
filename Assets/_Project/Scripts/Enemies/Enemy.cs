@@ -49,7 +49,7 @@ namespace Main
 
         private void OnEnable()
         {
-            _player = GameObject.FindGameObjectWithTag("Player");
+            _player = GameObject.FindGameObjectWithTag("Path");
             _animator = GetComponent<Animator>();
             _collider = GetComponent<Collider>();
             
@@ -150,7 +150,7 @@ namespace Main
             }
             
             //If we hit the player
-            if (other.gameObject.CompareTag("Player"))
+            if (other.gameObject.CompareTag("Path"))
             {
                 //With this animation, the root of the Enemy will advance and try to hit the Player.
                 //Go to EnemyRoot to see what happens there.

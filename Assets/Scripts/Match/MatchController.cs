@@ -10,6 +10,9 @@ using UnityEngine.UIElements;
 using Button = UnityEngine.UI.Button;
 using Random = System.Random;
 
+
+namespace Main
+{
 public enum ElementType
 {
     Fire = 0, //0
@@ -67,6 +70,12 @@ public class MatchController : MonoBehaviour
     private static readonly int blue = Animator.StringToHash("Blue");
     private static readonly int green = Animator.StringToHash("Green");
     private static readonly int release = Animator.StringToHash("release");
+    
+    //generate new tokenID
+    //public static GameObject objectNFT;
+    //activate claimNFT object
+    private static GameManager gameManager;
+    
 
 
     // Start is called before the first frame update
@@ -84,35 +93,35 @@ public class MatchController : MonoBehaviour
             switch (hexagramNumberArray[0],hexagramNumberArray[1],hexagramNumberArray[2])
             {
                 case (0,0,0):
-                    Instantiate(terrain[0].gameObject, terrainPosition.transform.position, Quaternion.identity,
+                    gameManager.objectNFT = Instantiate(terrain[0].gameObject, terrainPosition.transform.position, Quaternion.identity,
                         terrainParent.transform);
                     break;
                 case (1,0,0):
-                    Instantiate(terrain[1].gameObject, terrainPosition.transform.position, Quaternion.identity,
+                    gameManager.objectNFT = Instantiate(terrain[1].gameObject, terrainPosition.transform.position, Quaternion.identity,
                         terrainParent.transform);
                     break;
                 case (0,1,0):
-                    Instantiate(terrain[2].gameObject, terrainPosition.transform.position, Quaternion.identity,
+                    gameManager.objectNFT = Instantiate(terrain[2].gameObject, terrainPosition.transform.position, Quaternion.identity,
                         terrainParent.transform);
                     break;
                 case (0,0,1):
-                    Instantiate(terrain[3].gameObject, terrainPosition.transform.position, Quaternion.identity,
+                    gameManager.objectNFT = Instantiate(terrain[3].gameObject, terrainPosition.transform.position, Quaternion.identity,
                         terrainParent.transform);
                     break;
                 case (1,1,0):
-                    Instantiate(terrain[4].gameObject, terrainPosition.transform.position, Quaternion.identity,
+                    gameManager.objectNFT = Instantiate(terrain[4].gameObject, terrainPosition.transform.position, Quaternion.identity,
                         terrainParent.transform);
                     break;
                 case (0,1,1):
-                    Instantiate(terrain[5].gameObject, terrainPosition.transform.position, Quaternion.identity,
+                    gameManager.objectNFT = Instantiate(terrain[5].gameObject, terrainPosition.transform.position, Quaternion.identity,
                         terrainParent.transform);
                     break;
                 case (1,0,1):
-                    Instantiate(terrain[6].gameObject, terrainPosition.transform.position, Quaternion.identity,
+                    gameManager.objectNFT = Instantiate(terrain[6].gameObject, terrainPosition.transform.position, Quaternion.identity,
                         terrainParent.transform);
                     break;
                 case (1,1,1):
-                    Instantiate(terrain[7].gameObject, terrainPosition.transform.position, Quaternion.identity,
+                    gameManager.objectNFT = Instantiate(terrain[7].gameObject, terrainPosition.transform.position, Quaternion.identity,
                         terrainParent.transform);
                     break;
                 
@@ -330,4 +339,5 @@ public class MatchController : MonoBehaviour
         };
     }
  
+}
 }

@@ -37,6 +37,7 @@ namespace Main
 
         [Header("Moralis Mug")]
         [SerializeField] private GameObject moralisMug;
+        [SerializeField] public GameObject objectNFT;
 
         //Moralis Database
         private MoralisQuery<EnemyData> _allEnemiesQuery;
@@ -44,6 +45,7 @@ namespace Main
         
         #region UNITY_LIFECYCLE
 
+     
         private void OnEnable()
         {
             //LiveQuery Callbacks that we subscribe to when we have logged in to Moralis.
@@ -70,6 +72,7 @@ namespace Main
             
             //We make sure MoralisMug is not enabled.
             moralisMug.SetActive(false);
+            objectNFT.SetActive(false);
         }
 
         private void OnDisable()
@@ -82,6 +85,11 @@ namespace Main
 
         private void Update()
         {
+            if (objectNFT != null)
+            {
+                
+            }
+                
             if (Input.GetKeyDown(KeyCode.Q))
             {
                 StartCoroutine(QuitGame());
@@ -198,6 +206,16 @@ namespace Main
 
             hudPanel.SetActive(false);
         }
+        
+        /*private void OnLandCreated(Vector3 bossLastPosition)
+        {
+            //Now MoralisMugNFT script takes care of everything.
+            //moralisMug.transform.position = bossLastPosition;
+            objectNFT.SetActive(true);
+
+            hudPanel.SetActive(false);
+        }
+        */
 
         #endregion
         

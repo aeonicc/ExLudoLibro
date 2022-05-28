@@ -40,6 +40,7 @@ public class NFTcontroller : MonoBehaviour
         private bool _checkedOwnership;
         private bool _alreadyOwned;
         private bool _signing;
+        private MatchController MatchCtrt;
         
         private const float RotatingSpeed = 0.1f;
         

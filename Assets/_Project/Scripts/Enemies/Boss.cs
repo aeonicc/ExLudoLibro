@@ -91,7 +91,7 @@ namespace Main
         //Boss has 2 COLLIDERS. On is wider and it's just a trigger to control if the player comes near or not.
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.CompareTag("Player"))
+            if (other.gameObject.CompareTag("Path"))
             {
                 //We activate lifeBar for the first time;
                 if (!lifeBar.gameObject.activeSelf)
@@ -112,7 +112,7 @@ namespace Main
         
         private void OnTriggerExit(Collider other)
         {
-            if (other.gameObject.CompareTag("Player"))
+            if (other.gameObject.CompareTag("Path"))
             {
                 _animator.Play("IdleBattle");
                 _playerIsNear = false;
