@@ -90,45 +90,32 @@ public class MatchController : MonoBehaviour
     {
         if (hexagramCounter == 6)
         {
-            switch (hexagramNumberArray[0],hexagramNumberArray[1],hexagramNumberArray[2])
-            {
-                case (0,0,0):
-                    gameManager.objectNFT = Instantiate(terrain[0].gameObject, terrainPosition.transform.position, Quaternion.identity,
-                        terrainParent.transform);
-                    break;
-                case (1,0,0):
-                    gameManager.objectNFT = Instantiate(terrain[1].gameObject, terrainPosition.transform.position, Quaternion.identity,
-                        terrainParent.transform);
-                    break;
-                case (0,1,0):
-                    gameManager.objectNFT = Instantiate(terrain[2].gameObject, terrainPosition.transform.position, Quaternion.identity,
-                        terrainParent.transform);
-                    break;
-                case (0,0,1):
-                    gameManager.objectNFT = Instantiate(terrain[3].gameObject, terrainPosition.transform.position, Quaternion.identity,
-                        terrainParent.transform);
-                    break;
-                case (1,1,0):
-                    gameManager.objectNFT = Instantiate(terrain[4].gameObject, terrainPosition.transform.position, Quaternion.identity,
-                        terrainParent.transform);
-                    break;
-                case (0,1,1):
-                    gameManager.objectNFT = Instantiate(terrain[5].gameObject, terrainPosition.transform.position, Quaternion.identity,
-                        terrainParent.transform);
-                    break;
-                case (1,0,1):
-                    gameManager.objectNFT = Instantiate(terrain[6].gameObject, terrainPosition.transform.position, Quaternion.identity,
-                        terrainParent.transform);
-                    break;
-                case (1,1,1):
-                    gameManager.objectNFT = Instantiate(terrain[7].gameObject, terrainPosition.transform.position, Quaternion.identity,
-                        terrainParent.transform);
-                    break;
-                
-            }
-            terrainParent.GetComponent<Animator>().SetTrigger(Levitate);
-            //hexagramParts[HexagramCounter - 1].transform.parent.GetComponent<Animator>().SetTrigger(HolderSpin);
             hexagramCounter = 10;
+            var position = terrainPosition.transform.position;
+            terrainParent.GetComponent<Animator>().SetTrigger(Levitate);
+            gameManager.objectNFT = (hexagramNumberArray[0], hexagramNumberArray[1], hexagramNumberArray[2]) switch
+            {
+                (0, 0, 0) => Instantiate(terrain[0].gameObject, position, Quaternion.identity,
+                    terrainParent.transform),
+                (1, 0, 0) => Instantiate(terrain[1].gameObject, position, Quaternion.identity,
+                    terrainParent.transform),
+                (0, 1, 0) => Instantiate(terrain[2].gameObject, position, Quaternion.identity,
+                    terrainParent.transform),
+                (0, 0, 1) => Instantiate(terrain[3].gameObject, position, Quaternion.identity,
+                    terrainParent.transform),
+                (1, 1, 0) => Instantiate(terrain[4].gameObject, position, Quaternion.identity,
+                    terrainParent.transform),
+                (0, 1, 1) => Instantiate(terrain[5].gameObject, position, Quaternion.identity,
+                    terrainParent.transform),
+                (1, 0, 1) => Instantiate(terrain[6].gameObject, position, Quaternion.identity,
+                    terrainParent.transform),
+                (1, 1, 1) => Instantiate(terrain[7].gameObject, position, Quaternion.identity,
+                    terrainParent.transform),
+                _ => gameManager.objectNFT
+            };
+
+            //hexagramParts[HexagramCounter - 1].transform.parent.GetComponent<Animator>().SetTrigger(HolderSpin);
+           
             
             
         }
