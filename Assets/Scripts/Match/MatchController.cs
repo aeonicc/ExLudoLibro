@@ -45,6 +45,7 @@ public class MatchController : MonoBehaviour
     [FormerlySerializedAs("HexagramNumberArray")] [SerializeField] private List<int> hexagramNumberArray;
     [SerializeField] private GameObject terrainParent;
     [SerializeField] private GameObject terrainPosition;
+    [SerializeField] private GameObject CanvasCameraChange;
     private bool _hexagramChangeColor;
     private bool _conversionHasBegun;
     private bool _matchHasStarted;
@@ -89,7 +90,8 @@ public class MatchController : MonoBehaviour
     private void Update()
     {
         if (hexagramCounter == 6)
-        {
+        { 
+            CanvasCameraChange.transform.GetChild(0).gameObject.SetActive(true);
             hexagramCounter = 10;
             var position = terrainPosition.transform.position;
             terrainParent.GetComponent<Animator>().SetTrigger(Levitate);
