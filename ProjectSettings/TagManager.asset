@@ -10,6 +10,7 @@ TagManager:
   - Floor
   - PlasmaSphere
   - BossBody
+  - Path
   layers:
   - Default
   - TransparentFX
